@@ -29,9 +29,10 @@ module.exports = {
     filename : 'main.bundle.js'
   }, 
   devServer: {
-    inline      : true,
-    contentBase : PATHS.public,
-    port        : 3001
+    inline              : true,
+    contentBase         : PATHS.public,
+    port                : 3001,
+    historyApiFallback  : true
   },
   module: { 
     loaders: [ 

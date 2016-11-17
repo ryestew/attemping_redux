@@ -6,6 +6,8 @@ import todoApp from './reducers'
 import App from './components/App'
 
 let store = createStore(todoApp)
+// store is the state!
+console.log(`the state is currently ${store.getState}`);
 
 render(
   <Provider store={store}>
