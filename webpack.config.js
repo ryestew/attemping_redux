@@ -18,12 +18,12 @@ combined dist is the new folder where the files live that MAY
  where files that get combined are put
  */
 
-console.log(' * * * * * ** ', path.join(PATHS.src, 'app.js'));
+console.log(' * * * * * ** ', path.join(PATHS.src, 'index.js'));
 
 
 
 module.exports = {
-  entry: path.join(PATHS.src, 'app.js'),
+  entry: path.join(PATHS.src, 'index.js'),
   output: {
     path     : path.join(__dirname, 'public/j'),
     filename : 'main.bundle.js'

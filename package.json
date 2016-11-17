@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "y2",
   "version": "0.0.1",
   "description": "because we like you",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "R & R",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
@@ -22,6 +22,7 @@
     "mocha": "^3.1.2",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "redux-devtools": "^3.3.1",
     "sinon": "^1.17.6",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
@@ -30,6 +31,8 @@
   },
   "dependencies": {
     "jquery": "^3.1.1",
-    "react-router": "^3.0.0"
+    "react-redux": "^4.4.6",
+    "react-router": "^3.0.0",
+    "redux": "^3.6.0"
   }
 }
